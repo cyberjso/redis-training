@@ -24,9 +24,9 @@ repositories {
 }
 
 dependencies {
-
   compile group: 'io.lettuce', name: 'lettuce-core', version: '5.2.1.RELEASE'
-
+  compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.10.2'
+  
   compile 'org.slf4j:slf4j-api:1.7.25'
   compile 'org.slf4j:slf4j-jdk14:1.7.25'
 
